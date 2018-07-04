@@ -1,5 +1,5 @@
 {
-  "name": "react-native-redux-expo-template",
+  "name": "react-native-production-skeleton",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -29,8 +29,12 @@
     "lint": "eslint .",
     "lint:fix": "eslint  . --fix",
     "prettier": "prettier --write '*.js'",
-    "format-code": "yarn run prettier && yarn run lint:fix",
-    "precommit": "lint-staged"
+    "format-code": "yarn run prettier && yarn run lint:fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.js": [
