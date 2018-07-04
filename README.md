@@ -5,13 +5,18 @@ I assume that you have already got your environment setup to run React Native ap
 
 # Install
 
-Run the following command:
+Run the following commands:
+
 `git clone https://github.com/ahmadkhudeish/react-native-production-skeleton.git`
+
 `cd react-native-production-skeleton`
+
 `yarn install`
 
 To run on Android:
+
 `yarn run android`
 
 To run on iOS:
+
 `yarn run ios`
