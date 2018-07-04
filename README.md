@@ -15,4 +15,3 @@ To run on Android:
 
 To run on iOS:
 `yarn run ios`
-

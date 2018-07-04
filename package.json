@@ -29,11 +29,12 @@
     "lint": "eslint .",
     "lint:fix": "eslint  . --fix",
     "prettier": "prettier --write '*.js'",
-    "format-code": "yarn run prettier && yarn run lint:fix"
+    "format-code": "yarn run prettier && yarn run lint:fix",
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn precommit"
     }
   },
   "lint-staged": {
